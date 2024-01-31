@@ -1,11 +1,11 @@
 <div class="container__small_card">
     <div class="container__small_card_content">
         <div class="small_card_photo">
-            <a href="#"><img src="{{ photoCover }}" alt=""></a>
+            <a [routerLink]="['conteudo', Id]"><img src="{{ photoCover }}" alt=""></a>
         </div>
         <div class="small_card_description">
             <p>
-                <a href="#">{{ descreption }}</a> 
+                <a [routerLink]="['conteudo', Id]">{{ descreption }}</a> 
             </p>
         </div>
     </div>
