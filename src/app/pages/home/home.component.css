@@ -4,3 +4,14 @@
     flex-direction: row;
     justify-content: center;
 }
+
+@media (max-width: 480px) {
+    .container__articles{
+        display: block;
+    }
+}
+@media (min-width: 915px) {
+    .articles__others {
+        width: 50%;
+    }
+}

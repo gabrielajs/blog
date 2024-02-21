@@ -7,3 +7,9 @@
     margin-right: 20px;
     list-style: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .container_menu_bar > ul{
+        display: flex;
+    }
+}

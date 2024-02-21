@@ -22,3 +22,36 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+container__small_card {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 480px) {
+    .container__small_card {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .small_card_description{
+        max-height: 8em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        align-items: baseline;
+    }
+}
+@media only screen and (min-width: 915px) {
+    .small_card_description{
+        display: flex;
+        justify-content: center;
+        max-height: 8em;
+        max-width: 12.5em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        align-items: baseline;
+    }
+    .small_card_description > p > a {
+        width: 50%;
+    }
+}

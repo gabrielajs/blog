@@ -25,3 +25,12 @@
 .big_car_description > p > a{
     color: #808080;
 }
+
+@media only screen and (max-width: 768px) {
+    .container__big_card{
+        margin: 0 10px 25px 10px;
+        width: auto;
+        height: auto;
+        display: block;
+    }
+}
