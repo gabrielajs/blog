@@ -2,6 +2,9 @@
 
 Esse projeto é um blog de grafite o propósito é ser um blog informativo, onde todos podem publicar suas artes, este projeto foi feito com [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
+
+[Link para acessar projeto](https://gabrielajs.github.io/blog/)
+
 <img src="https://github.com/gabrielajs/blog/assets/17344053/8566e362-89ae-41df-a2b4-8de4be9249ca">
 
 ## Development server
