@@ -41,7 +41,12 @@ container__small_card {
         align-items: baseline;
     }
 }
-@media only screen and (min-width: 915px) {
+@media screen and (min-width: 600px) and (max-width: 920px) {
+    .container__small_card {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
     .small_card_description{
         display: flex;
         justify-content: center;
